@@ -1,0 +1,127 @@
+# SkillSwap – Skill Exchange Platform
+
+## 📌 About the Project
+
+SkillSwap is a web-based skill exchange platform developed using the MERN Stack (MongoDB, Express.js, React.js, and Node.js). It enables users to connect with one another, share their knowledge, and learn new skills by exchanging their existing skills.
+
+The main goal of SkillSwap is to create a collaborative learning environment where users can improve their abilities, discover new interests, and help others grow without necessarily spending money on courses.
+
+## 🎯 Objectives
+
+- To provide a platform for users to exchange skills.
+- To encourage peer-to-peer learning and collaboration.
+- To help users discover people with complementary skills.
+- To create an accessible and user-friendly learning community.
+- To develop practical skills using MERN Stack technologies.
+
+## ✨ Features
+
+- **User Registration and Login** – Allow users to create accounts and access the platform.
+- **User Profiles** – Display users' skills, interests, and learning goals.
+- **Skill Listing** – Enable users to list skills they can teach and skills they want to learn.
+- **Skill Matching** – Help users find others with complementary skills.
+- **Skill Exchange** – Support users in connecting to exchange knowledge.
+- **Responsive Interface** – Provide a user-friendly experience across different screen sizes.
+
+*Note: Features may vary depending on the current implementation of the project.*
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| MongoDB | Database |
+| Express.js | Backend framework |
+| React.js | Frontend user interface |
+| Node.js | Server-side runtime |
+| HTML5 | Web page structure |
+| CSS3 | Styling and layout |
+| JavaScript | Application functionality |
+| Git & GitHub | Version control and project hosting |
+
+## 📂 Project Structure
+
+```text
+SkillSwap/
+├── backend/
+│   ├── package.json
+│   └── ...
+├── frontend/
+│   ├── package.json
+│   └── ...
+├── .gitignore
+└── README.md
+```
+
+## ⚙️ Installation and Setup
+
+### Prerequisites
+
+Install the following before running the project:
+
+- Node.js and npm
+- MongoDB or a MongoDB Atlas connection
+- Git
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Arshi-yaaaa/SkillSwap.git
+cd SkillSwap
+```
+
+### 2. Set Up the Backend
+
+```bash
+cd backend
+npm install
+```
+
+Create a `.env` file inside the backend folder and configure the required environment variables according to your application.
+
+Example:
+
+```env
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+```
+
+Start the backend using the appropriate script defined in `backend/package.json`, for example:
+
+```bash
+npm run dev
+```
+
+### 3. Set Up the Frontend
+
+Open a new terminal and run:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Open the local URL displayed in your terminal to access the application.
+
+## 🚀 Future Enhancements
+
+- Real-time chat between users.
+- Advanced skill-matching recommendations.
+- Session scheduling and availability management.
+- Ratings and reviews for completed skill exchanges.
+- Notifications for new requests and updates.
+- Deployment for public access.
+
+## 🎓 Project Purpose
+
+SkillSwap is developed as a MERN Stack project to demonstrate full-stack web development, database integration, user interface design, and the development of a collaborative learning platform.
+
+## 👩‍💻 Author
+
+**Arshiya Thaslim K**
+
+GitHub: [Arshi-yaaaa](https://github.com/Arshi-yaaaa)
+
+## 📄 License
+
+This project is intended for educational and learning purposes.
